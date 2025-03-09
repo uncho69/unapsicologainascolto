@@ -46,7 +46,7 @@ function ContactForm() {
       <div className="space-y-6">
         <div className="group">
           <label className="block text-sm font-medium text-gray-700 mb-2">
-            Email
+            Nome e cognome
           </label>
           <input
             type="text"
@@ -59,7 +59,7 @@ function ContactForm() {
         </div>
         <div className="group">
           <label className="block text-sm font-medium text-gray-700 mb-2">
-            Nome e cognome
+            Email
           </label>
           <input
             type="email"
