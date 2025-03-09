@@ -19,7 +19,7 @@ function ContactForm() {
     e.preventDefault();
 
     const templateParams = {
-      from_name: formData.nome,
+      from_name: `${formData.nome} <${formData.email}>`,
       user_email: formData.email,
       message: formData.messaggio
     };
