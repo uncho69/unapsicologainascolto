@@ -140,7 +140,7 @@ function App() {
         </div>
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
           <h1 className="text-7xl font-light mb-6 animate-fade-up">
-            Alla ricerca dei colori
+            Una Psicologa In Ascolto
           </h1>
           <p className="text-2xl font-light mb-8 animate-fade-up animate-delay-100">
             Psicologa Clinica e Psicoterapeuta in formazione
