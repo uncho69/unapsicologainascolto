@@ -20,7 +20,7 @@ function ContactForm() {
 
     const templateParams = {
       from_name: formData.nome,
-      from_email: formData.email,
+      user_email: formData.email,
       message: formData.messaggio
     };
 
