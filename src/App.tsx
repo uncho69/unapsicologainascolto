@@ -4,7 +4,7 @@ import {
   Calendar, MapPin, Video, Phone, Mail, Clock, Heart, Star, Users, 
   Brain, Sparkles, Smile, BookOpen, GraduationCap, Instagram, Menu 
 } from 'lucide-react';
-import ContactForm from './ContactForm';  // Importa il componente creato
+import ContactForm from './ContactForm';  
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -73,7 +73,7 @@ function App() {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-rose-400 transition-all group-hover:w-full"></span>
             </a>
           </div>
-          {/* ▲▲▲ Fine modifica ▲▲▲ */}
+          {/* ▲▲▲▲▲▲ */}
 
           {/* Bottone Hamburger (solo mobile) */}
           <button 
