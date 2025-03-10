@@ -777,8 +777,7 @@ function App() {
           </div>
           <div className="text-center text-gray-600 pt-8 border-t">
             <p>
-              © {new Date().getFullYear()} Dott.ssa Sara Brasili - Psicologa
-              Clinica e Psicoterapeuta in formazione. Tutti i diritti riservati.
+              © {new Date().getFullYear()} Dott.ssa Sara Brasili - Tutti i diritti riservati.
             </p>
           </div>
         </div>
