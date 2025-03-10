@@ -1,3 +1,4 @@
+import { ChevronDown } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 import { 
   Calendar, MapPin, Video, Phone, Mail, Clock, Heart, Star, Users, 
@@ -49,7 +50,7 @@ function App() {
           </h1>
 
           {/* Menu Desktop */}
-          {/* ▼▼▼ Modifica: link desktop con stesso colore di Dott.ssa Sara Brasili ▼▼▼ */}
+          {/* ▼▼▼ ▼▼▼ */}
           <div
             className={`hidden md:flex gap-8 items-center ${
               isScrolled ? 'text-gray-800' : 'text-white'
@@ -162,6 +163,14 @@ function App() {
             </a>
           </div>
         </div>
+
+        {/* ▼▼▼ Freccia per scroll ▼▼▼ */}
+        <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2">
+          <a href="#services" className="text-white animate-bounce">
+            <ChevronDown className="w-8 h-8" />
+          </a>
+        </div>
+        {/* ▲▲▲ Fine freccia ▲▲▲ */}
       </header>
 
       {/* Services Section */}
