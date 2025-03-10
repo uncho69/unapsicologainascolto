@@ -142,3 +142,7 @@
     transform: rotate(45deg) translateX(100%);
   }
 }
+html,
+body {
+  overflow-x: hidden;
+}
